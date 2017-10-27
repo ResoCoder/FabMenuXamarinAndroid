@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Hello FAB menu!"
+    android:textSize="24sp"/>
+
+  <View
+    android:id="@+id/bg_fab_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48000000"
+    android:alpha="0"
+    android:visibility="gone"/>
+
+  <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_airballoon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/standard_23"
+    android:visibility="gone"
+    android:rotation="90"
+    app:fabSize="mini"
+    app:srcCompat="@drawable/ic_airballoon"/>
+
+  <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_cake"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/standard_23"
+    android:visibility="gone"
+    android:rotation="90"
+    app:fabSize="mini"
+    app:srcCompat="@drawable/ic_cake"/>
+
+  <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/fab_margin"
+    app:fabSize="normal"
+    app:srcCompat="@drawable/ic_plus"/>
+  
+</android.support.design.widget.CoordinatorLayout>
